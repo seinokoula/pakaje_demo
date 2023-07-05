@@ -2,7 +2,7 @@
 
 declare (strict_types=1);
 
-namespace Achar\PakajeDemo;
+namespace dolioto\PakajeDemo;
 
 class Api
 {
