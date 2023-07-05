@@ -1,0 +1,28 @@
+{
+    "name": "achar/pakaje_demo",
+    "description": "very noice test",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Achar\\PakajeDemo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "seinokoula",
+            "email": "alexandre.charles92@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"      
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.10",
+        "phpunit/phpunit": "^10.2"
+    },
+    "scripts": {
+        "phpstan": "@php vendor/bin/phpstan analyse src --level=max",
+        "test": "@php vendor/bin/phpunit tests"
+    }
+}
