@@ -1,11 +1,11 @@
 {
-    "name": "achar/pakaje_demo",
+    "name": "gokilp/pakaje_demo",
     "description": "very noice test",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Achar\\PakajeDemo\\": "src/"
+            "gokilp\\PakajeDemo\\": "src/"
         }
     },
     "authors": [
